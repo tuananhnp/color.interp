@@ -10,7 +10,7 @@ function updateUI() {
   const color1 = new Color(state.color[0]);
   const color2 = new Color(state.color[1]);
 
-  const spaces = ['srgb', 'srgb-linear', 'rec2020', 'p3', 'a98rgb', 'prophoto', 'xyz-d50', 'lab', 'oklab', 'hsl', 'hwb', 'lch', 'oklch'];
+  const spaces = ['srgb', 'srgb-linear'];
   const cylindrical = ['hsl', 'hwb', 'lch', 'oklch'];
   const interpolations = ['shorter', 'longer', 'increasing', 'decreasing'];
 
